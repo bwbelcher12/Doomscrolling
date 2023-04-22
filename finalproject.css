@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    background-color: #0d2838;
+    margin: 0 auto;
+    width: 600px;
+
+	padding: 10px 30px 20px 30px;
+}
+h3 {
+    font-style: italic;
+    font-weight: 100;
+    font-size: .5em;
+}
+h2 {
+    padding-right: .5em;
+    margin: 0;
+}
+.post {
+    color: white;
+    background-color: #081821;
+    border-radius: 1em;
+    padding: 1em 1em .7em 1em;
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: .5em;
+}
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    background-color: #0d2838;
+    content: "";
+    clear: both;
+    display: table;
+    background: #0d2838;
+    background: linear-gradient(180deg, rgba(13,40,56,1) 0%, rgba(13,40,56,1) 79%, rgba(13,40,56,0) 100%);
+    color: white;
+    position: sticky;
+    top: 0;
+    width: 600px;
+}
+
+.pfp {
+    border-radius: 10em;
+    width: 5em;
+    height: 5em;
+    align-self: auto;
+    float: left;
+}
+.handle {
+    font-size: 1.5em;
+    margin: 0em;
+}
+.postText {
+    margin: 0em;
+    padding: .5em 0em 1em 0em;
+
+}
+.postbody {
+    padding-left: 0em;
+    width: 450px;
+    float: left;
+    margin-left: .5em;
+}
+.icon {
+    width: 24px;
+}
+.interaction {
+    width: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    display: flex;
+
+}
