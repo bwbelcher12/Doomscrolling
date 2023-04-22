@@ -26,6 +26,11 @@ h2 {
     display: table;
     margin-top: .5em;
 }
+.post:hover {
+    background-color: #081d29;
+    transition: 0.2s;
+    cursor: pointer;
+}
 .header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
@@ -40,7 +45,6 @@ h2 {
     top: 0;
     width: 600px;
 }
-
 .pfp {
     border-radius: 10em;
     width: 5em;
