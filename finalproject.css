@@ -98,16 +98,18 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
     position: fixed;
-    width: 14%;
+    width: 10%;
     color: white;
     background-color: #081821;
     border-radius: 1em;
     padding: 1em 1em .7em 1em;
-    content: "";
     clear: both;
     display: table;
-    margin-top: 4.4em;
-    height: 30%;
-    margin-left: 12.7%;
-    margin-top: 3.5%
+    margin-top: 5em;
+    height: 3%;
+    margin-left: -20.2em;
+}
+.navigation h2{
+    padding-left: 1em;
+    padding-bottom: .4em;
 }
