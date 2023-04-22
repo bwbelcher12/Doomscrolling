@@ -2,9 +2,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
     background-color: #0d2838;
-    width: 50%;
-    margin-left: 30%;
     display: flex
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.current {
+    text-decoration: underline;    
+}
+.feed {
+    margin-left: 35vw;
 }
 h3 {
     font-style: italic;
@@ -24,6 +32,7 @@ h2 {
     clear: both;
     display: table;
     margin-bottom: 1em;
+    width: 25vw;
 }
 .post:hover {
     background-color: #081d29;
@@ -42,8 +51,7 @@ h2 {
     color: white;
     position: sticky;
     top: 0;
-    width: 100%
-        ;
+    width: 100%;
 }
 .pfp {
     border-radius: 10em;
@@ -63,15 +71,14 @@ h2 {
 }
 .postbody {
     padding-left: 0em;
-    width: 450px;
-    float: left;
-    margin-left: .5em;
+    margin-left: 5.5em;
 }
 .icon {
     width: 24px;
+    float: left;
 }
 .interaction {
-    width: 125px;
+    width: 25%;
     display: flex;
     justify-content: space-between;
 }
@@ -91,7 +98,7 @@ h2 {
     clear: both;
     display: table;
     margin-top: 4.4em;
-    margin-left: 31%;
+    margin-left: 63vw;
     height: 30%;
 }
 .navigation {
@@ -107,7 +114,7 @@ h2 {
     display: table;
     margin-top: 5em;
     height: 3%;
-    margin-left: -20.2em;
+    margin-left: 22.3vw;
 }
 .navigation h2{
     padding-left: 1em;
