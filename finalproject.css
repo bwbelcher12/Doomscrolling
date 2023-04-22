@@ -4,25 +4,31 @@ body {
     background-color: #0d2838;
     display: flex
 }
+
 a {
     color: white;
     text-decoration: none;
 }
+
 .current {
-    text-decoration: underline;    
+    text-decoration: underline;
 }
+
 .feed {
     margin-left: 35vw;
 }
+
 h3 {
     font-style: italic;
     font-weight: 100;
     color: #d4d4d4;
 }
+
 h2 {
     padding-right: .5em;
     margin: 0;
 }
+
 .post {
     color: white;
     background-color: #081821;
@@ -33,12 +39,15 @@ h2 {
     display: table;
     margin-bottom: 1em;
     width: 25vw;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
 }
+
 .post:hover {
     background-color: #081d29;
     transition: 0.2s;
     cursor: pointer;
 }
+
 .header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
@@ -47,12 +56,13 @@ h2 {
     clear: both;
     display: table;
     background: #0d2838;
-    background: linear-gradient(180deg, rgba(13,40,56,1) 0%, rgba(13,40,56,1) 79%, rgba(13,40,56,0) 100%);
+    background: linear-gradient(180deg, rgba(13, 40, 56, 1) 0%, rgba(13, 40, 56, 1) 79%, rgba(13, 40, 56, 0) 100%);
     color: white;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: 100vw;
 }
+
 .pfp {
     border-radius: 10em;
     width: 5em;
@@ -60,31 +70,38 @@ h2 {
     align-self: auto;
     float: left;
 }
+
 .handle {
     font-size: 1.5em;
     margin: 0em;
 }
+
 .postText {
     margin: 0em;
     padding: .5em 0em 1em 0em;
 
 }
+
 .postbody {
     padding-left: 0em;
     margin-left: 5.5em;
 }
+
 .icon {
     width: 24px;
     float: left;
 }
+
 .interaction {
     width: 25%;
     display: flex;
     justify-content: space-between;
 }
+
 .name {
     display: flex;
 }
+
 .definition {
     position: fixed;
     display: flex;
@@ -101,6 +118,7 @@ h2 {
     margin-left: 63vw;
     height: 30%;
 }
+
 .navigation {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
@@ -115,8 +133,12 @@ h2 {
     margin-top: 5em;
     height: 3%;
     margin-left: 22.3vw;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
+
 }
-.navigation h2{
+
+.navigation h2 {
     padding-left: 1em;
     padding-bottom: .4em;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
 }
