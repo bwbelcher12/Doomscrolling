@@ -15,7 +15,9 @@ a {
 }
 
 .feed {
+    float: left;
     margin-left: 35vw;
+    margin-top: 15vh;
 }
 
 h3 {
@@ -50,7 +52,7 @@ h2 {
 
 .header {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 87.5%;
+    font-size: 200%;
     background-color: #0d2838;
     content: "";
     clear: both;
@@ -58,9 +60,11 @@ h2 {
     background: #0d2838;
     background: linear-gradient(180deg, rgba(13, 40, 56, 1) 0%, rgba(13, 40, 56, 1) 79%, rgba(13, 40, 56, 0) 100%);
     color: white;
-    position: sticky;
+    position: fixed;
+    
     top: 0;
     width: 100vw;
+    margin-left: 22.3vw;
 }
 
 .pfp {
@@ -114,7 +118,7 @@ h2 {
     content: "";
     clear: both;
     display: table;
-    margin-top: 4.4em;
+    margin-top: 15vh;
     margin-left: 63vw;
     height: auto;
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
@@ -131,7 +135,7 @@ h2 {
     padding: 1em 1em .7em 1em;
     clear: both;
     display: table;
-    margin-top: 5em;
+    margin-top: 15vh;
     height: auto;
     margin-left: 22.3vw;
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
