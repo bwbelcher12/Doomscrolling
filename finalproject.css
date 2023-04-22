@@ -2,10 +2,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
     background-color: #0d2838;
-    margin: 0 auto;
-    width: 600px;
-
-	padding: 10px 30px 20px 30px;
+    width: 50%;
+    margin-left: 30%;
+    display: flex
 }
 h3 {
     font-style: italic;
@@ -43,7 +42,7 @@ h2 {
     color: white;
     position: sticky;
     top: 0;
-    width: 600px;
+    width: auto;
 }
 .pfp {
     border-radius: 10em;
@@ -78,4 +77,17 @@ h2 {
 .name {
     display: flex;
 
+}
+aside {
+    width: 20%;
+    float: left;
+    color: white;
+    background-color: #081821;
+    border-radius: 1em;
+    padding: 1em 1em .7em 1em;
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 5em;
+    margin-left: .5em;
 }
