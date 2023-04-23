@@ -19,6 +19,9 @@ a {
     margin-left: 35vw;
     margin-top: 15vh;
 }
+p {
+    font-size: 110%;
+}
 
 h3 {
     font-style: italic;
@@ -39,12 +42,36 @@ h2 {
     content: "";
     clear: both;
     display: table;
-    margin-bottom: 1em;
+    margin-top: 2em;
     width: 25vw;
     box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
 }
 
 .post:hover {
+    background-color: #081d29;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#first {
+    margin-top: 0;
+}
+
+.comment {
+    color: white;
+    background-color: #081821;
+    border-radius: 1em;
+    padding: 1em 1em .7em 1em;
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 1em;
+    margin-left: 3vw;
+    width: 22vw;
+    box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.28);
+}
+
+.comment:hover {
     background-color: #081d29;
     transition: 0.2s;
     cursor: pointer;
