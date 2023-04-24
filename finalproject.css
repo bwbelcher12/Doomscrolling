@@ -113,7 +113,7 @@ h2 {
 }
 
 .handle {
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0em;
 }
 
@@ -140,7 +140,7 @@ h2 {
 }
 
 .name {
-    display: flex;
+    display: grid;;
 }
 
 .definition {
@@ -206,5 +206,11 @@ h2 {
     }
     .navigation {
         visibility: hidden;
+    }
+    .username {
+        float: right;
+    }
+    .handle {
+        float: left;;
     }
 }
