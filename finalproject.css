@@ -96,7 +96,7 @@ h2 {
 .header h1 {
     margin-left: 22.3vw;
     margin-bottom: 0em;
-    margin-top: .4em;
+    margin-top: .2em;
 }
 
 .header p {
@@ -185,17 +185,22 @@ h2 {
     padding-bottom: .4em;
 }
 
+footer {
+
+}
+
 @media only screen and (max-width: 900px) {
     .header h1 {
         display: block;
         font-size: 1.6em;
-        margin-top: auto;
-        margin-bottom: auto;
+        margin-left: auto;
+        margin-top: 0em;
     }
     .header {
         display: flex;
         align-items: center;
         text-align: center;
+        min-height: 3em;
     }
     .header p {
         visibility: hidden;
@@ -220,6 +225,8 @@ h2 {
         float: left;;
     }
     .interaction {
-        width: 20vw;
+        width: 20vw;;
     }
 }
+
+
