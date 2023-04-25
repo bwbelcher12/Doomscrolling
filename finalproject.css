@@ -141,7 +141,8 @@ h2 {
 }
 
 .name {
-    display: grid;;
+    display: grid;
+    ;
 }
 
 .definition {
@@ -185,9 +186,7 @@ h2 {
     padding-bottom: .4em;
 }
 
-footer {
-
-}
+footer {}
 
 @media only screen and (max-width: 900px) {
     .header h1 {
@@ -196,37 +195,46 @@ footer {
         margin-left: auto;
         margin-top: 0em;
     }
+
     .header {
         display: flex;
         align-items: center;
         text-align: center;
         min-height: 3em;
     }
+
     .header p {
         visibility: hidden;
     }
+
     .feed {
         margin-left: 2vw;
         min-width: 89vw;
     }
+
     .comment {
         margin-left: 10vw;
     }
+
     .definition {
         visibility: hidden;
     }
+
     .navigation {
         visibility: hidden;
     }
+
     .username {
         float: right;
     }
+
     .handle {
-        float: left;;
+        float: left;
+        ;
     }
+
     .interaction {
-        width: 20vw;;
+        width: 20vw;
+        ;
     }
 }
-
-
