@@ -181,18 +181,22 @@ h2 {
 
 .navigation h2 {
     padding-left: 1em;
-    padding-bottom: .4em;
+    padding-bottom: .4em
+        
+        
+        
+        ;
 }
 
 @media only screen and (max-width: 900px) {
     .header h1 {
         margin-left: 2vw;
-        margin-bottom: 0em;
-        font-size: 11vw;
+        padding 3vh, 0;
     }
     .header {
-        height: 15vh;
-        padding-top: 0;
+        display: table;
+        height: 1em;
+        align-content: center;
     }
     .header p {
         visibility: hidden;
