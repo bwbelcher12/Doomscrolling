@@ -2,7 +2,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 87.5%;
     background-color: #0d2838;
-    display: flex
+    display: flex;
+    padding-bottom: 10em;
 }
 
 a {
@@ -181,22 +182,20 @@ h2 {
 
 .navigation h2 {
     padding-left: 1em;
-    padding-bottom: .4em
-        
-        
-        
-        ;
+    padding-bottom: .4em;
 }
 
 @media only screen and (max-width: 900px) {
     .header h1 {
-        margin-left: 2vw;
-        padding 3vh, 0;
+        display: block;
+        font-size: 1.6em;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .header {
-        display: table;
-        height: 1em;
-        align-content: center;
+        display: flex;
+        align-items: center;
+        text-align: center;
     }
     .header p {
         visibility: hidden;
